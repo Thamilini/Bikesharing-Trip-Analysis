@@ -36,4 +36,4 @@ I downloaded the results of this query as csv file and imported it into R. The d
 A dashboard and its visualizations were created using Tableau. 
 
 Below is an image that outlines the phases used in this process. Image Source: [Google Data Analytics Professional Certificate Program](https://www.coursera.org/professional-certificates/google-data-analytics)
-![Process](Process.jpg)
+![Process](Process.jpeg)

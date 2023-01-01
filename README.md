@@ -22,7 +22,11 @@ Since each data table contained the same columns, I used SQL UNIONS (in Google B
 
 ![SQL Union Query](https://github.com/Thamilini/Bikesharing-Trip-Analysis/blob/main/SQL_Union_QUERY.png)
 
-The datasets were cleaned, processed and transformed using R. The following libraries were used:
+The started_at and ended_at columns are both datetime attributes. day_of_week column. The below SQL query creates a ride_length and day_of_week column.
+
+![Create ride_length and day_of_week column](https://github.com/Thamilini/Bikesharing-Trip-Analysis/blob/main/SQL_Query_Create_Column.png)
+
+I downloaded the results of this query as csv file and imported it into R. The data table was processed and transformed using R. The following libraries were used:
 * tidyverse
 * skimr
 * janitor
